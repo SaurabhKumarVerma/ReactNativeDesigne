@@ -3,21 +3,28 @@ import { StyleSheet, Text, TouchableOpacity, Dimensions, View } from "react-nati
 // @ts-ignore
 import FontAwesome from "react-native-vector-icons/FontAwesome5";
 import { COLOR } from "../../Asset/color";
+import { useNavigation } from "@react-navigation/native";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 
 const  window = Dimensions.get("screen")
 
 interface propsButton {
   label: string,
-  onPress: () => void,
+  onPress?: () => void,
   icoName?: string,
-  iconSize?: number
+  iconSize?: number,
 }
-
-
+type RootStackParamList = {
+  name: {name: string}
+};
 export const Button: React.FC<propsButton > = ({ label, onPress ,icoName,iconSize}) => {
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   return (
       <TouchableOpacity
         style={styles.btnContainer}
+        onPress={() => {
+          navigation.navigate({name: "MainScreen" })
+        }}
       >
         <Text style={styles.textStyle}>{label}</Text>
         <View style={{marginHorizontal: 20}}>
