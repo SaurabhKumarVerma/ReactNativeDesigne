@@ -6,7 +6,8 @@ import { Button } from "../CommonButton/Button/Button";
 
 const { height,width} = Dimensions.get('window');
 
-const Home: React.FC<{  }> = props => {
+
+const Home: React.FC<{}> = () => {
   return (
     <View style={styles.container} >
         <View style={styles.imgView}>
@@ -19,7 +20,7 @@ const Home: React.FC<{  }> = props => {
           </View>
         </View>
       <View style={styles.btnContainer}>
-        <Button label='Get Started' onPress={() => {console.log('KEY')}} icoName={"arrow-right"} iconSize={20}/>
+        <Button label='Get Started'  icoName={"arrow-right"} iconSize={20}/>
       </View>
 
     </View>
