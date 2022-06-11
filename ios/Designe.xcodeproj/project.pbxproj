@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DesigneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DesigneTests.m */; };
+		09111DB42853EA4C002703B4 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DAE2853EA49002703B4 /* SFPRODISPLAYBOLD.OTF */; };
+		09111DB52853EA4C002703B4 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DAF2853EA49002703B4 /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		09111DB62853EA4C002703B4 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DB02853EA4A002703B4 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		09111DB72853EA4C002703B4 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DB12853EA4A002703B4 /* SFPRODISPLAYMEDIUM.OTF */; };
+		09111DB82853EA4C002703B4 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DB22853EA4B002703B4 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		09111DB92853EA4C002703B4 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 09111DB32853EA4C002703B4 /* SFPRODISPLAYBLACKITALIC.OTF */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2B59C03392599D623A28AE7A /* libPods-Designe-DesigneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2172303782067F868700BBE7 /* libPods-Designe-DesigneTests.a */; };
+		780B705B35CF44C19DF83F25 /* CircularStdFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FE9F4A16D1BEED22FAB278BA /* libPods-Designe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05122F7DF2122A88C1EB5FF /* libPods-Designe.a */; };
-		780B705B35CF44C19DF83F25 /* CircularStdFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,12 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DesigneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesigneTests.m; sourceTree = "<group>"; };
 		0606384C2DBF4D2D58B11188 /* Pods-Designe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Designe.debug.xcconfig"; path = "Target Support Files/Pods-Designe/Pods-Designe.debug.xcconfig"; sourceTree = "<group>"; };
+		09111DAE2853EA49002703B4 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		09111DAF2853EA49002703B4 /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		09111DB02853EA4A002703B4 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		09111DB12853EA4A002703B4 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		09111DB22853EA4B002703B4 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		09111DB32853EA4C002703B4 /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Designe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Designe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Designe/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Designe/AppDelegate.m; sourceTree = "<group>"; };
@@ -42,10 +54,10 @@
 		60DF3E39E46D56219A7DA959 /* Pods-Designe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Designe.release.xcconfig"; path = "Target Support Files/Pods-Designe/Pods-Designe.release.xcconfig"; sourceTree = "<group>"; };
 		7363C83A8342CC0C27FC3262 /* Pods-Designe-DesigneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Designe-DesigneTests.debug.xcconfig"; path = "Target Support Files/Pods-Designe-DesigneTests/Pods-Designe-DesigneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Designe/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CircularStdFont.otf; path = ../assert/fonts/CircularStdFont.otf; sourceTree = "<group>"; };
 		932E5A5D44D4E7D77D01ED32 /* Pods-Designe-DesigneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Designe-DesigneTests.release.xcconfig"; path = "Target Support Files/Pods-Designe-DesigneTests/Pods-Designe-DesigneTests.release.xcconfig"; sourceTree = "<group>"; };
 		A05122F7DF2122A88C1EB5FF /* libPods-Designe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Designe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */ = {isa = PBXFileReference; name = "CircularStdFont.otf"; path = "../assert/fonts/CircularStdFont.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				09111DB32853EA4C002703B4 /* SFPRODISPLAYBLACKITALIC.OTF */,
+				09111DAE2853EA49002703B4 /* SFPRODISPLAYBOLD.OTF */,
+				09111DB22853EA4B002703B4 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				09111DAF2853EA49002703B4 /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				09111DB12853EA4A002703B4 /* SFPRODISPLAYMEDIUM.OTF */,
+				09111DB02853EA4A002703B4 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
 				13B07FAE1A68108700A75B9A /* Designe */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DesigneTests */,
@@ -140,6 +158,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C9BFADD074AA45CB9C37FE83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		F198F722A837F79E9F7948F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,18 +174,8 @@
 				7363C83A8342CC0C27FC3262 /* Pods-Designe-DesigneTests.debug.xcconfig */,
 				932E5A5D44D4E7D77D01ED32 /* Pods-Designe-DesigneTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		C9BFADD074AA45CB9C37FE83 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				8D88A513A00B4C2C9CE88654 /* CircularStdFont.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -255,6 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09111DB42853EA4C002703B4 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				09111DB52853EA4C002703B4 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				09111DB62853EA4C002703B4 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				09111DB72853EA4C002703B4 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				09111DB82853EA4C002703B4 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				09111DB92853EA4C002703B4 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				780B705B35CF44C19DF83F25 /* CircularStdFont.otf in Resources */,
