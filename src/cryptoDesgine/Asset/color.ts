@@ -4,4 +4,5 @@ export const COLOR = {
   surface: '#fff',
   appTheme: '#000',
   background: '#dedede',
+  btnColor: '#00F4C8',
 };

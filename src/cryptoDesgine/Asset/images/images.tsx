@@ -1,4 +1,4 @@
-import Phone from 'phone.svg'
+import Phone from './phone.svg'
 
 
 
